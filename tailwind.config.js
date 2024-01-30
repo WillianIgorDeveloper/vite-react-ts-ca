@@ -12,6 +12,12 @@ module.exports = {
       },
     },
     extend: {
+      fontFamily: {
+        sans: ["Work Sans", "sans-serif"],
+      },
+      backgroundImage: {
+        "hero-pattern": "url('/public/hero-pattern.svg')",
+      },
       keyframes: {
         "accordion-down": {
           from: { height: "0" },
