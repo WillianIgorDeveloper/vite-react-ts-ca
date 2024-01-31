@@ -16,7 +16,7 @@ module.exports = {
         sans: ["Work Sans", "sans-serif"],
       },
       backgroundImage: {
-        "hero-pattern": "url('/public/hero-pattern.svg')",
+        "hero-pattern": "url('/hero-pattern.svg')",
       },
       keyframes: {
         "accordion-down": {
