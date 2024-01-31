@@ -13,13 +13,15 @@ export function HomeLayout({}: HomeProps) {
               <h2 className="text-3xl p-1 font-black lg:text-4xl xl:text-5xl">
                 A study project
               </h2>
-              <p className="px-3 md:p-0">
+              <p className="px-3 md:p-0 max-w-80">
                 This project is a study project, it is not intended for
                 commercial use.
               </p>
               <div className="space-x-3 pt-1">
-                <Link to="/signin">
-                  <Button>Get Started</Button>
+                <Link to="/app">
+                  <Button className="bg-brand-gradient text-zinc-50">
+                    Get Started
+                  </Button>
                 </Link>
                 <Link to="/signup">
                   <Button variant="outline">Create Account</Button>

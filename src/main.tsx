@@ -19,14 +19,12 @@ ReactDOM.createRoot(document.getElementById("root")!).render(
     <BrowserRouter>
       <Routes>
         <Route index element={<HomePage />} />
-        <Route element={<OnlyPublicRoutes />}>
-          <Route path="signin" element={<SignInPage />} />
-          <Route path="signup" element={<SignUpPage />} />
-        </Route>
-        <Route element={<PrivateRoutes />}>
-          <Route path="app" element={<AppPage />} />
-        </Route>
+        <Route path="signin" element={<SignInPage />} />
+        <Route path="signup" element={<SignUpPage />} />
+        <Route path="app" element={<AppPage />} />
         <Route path="*" element={<NotFoundPage />} />
+        <Route element={<OnlyPublicRoutes />}></Route>
+        <Route element={<PrivateRoutes />}></Route>
       </Routes>
     </BrowserRouter>
   </React.StrictMode>,

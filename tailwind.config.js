@@ -17,6 +17,7 @@ module.exports = {
       },
       backgroundImage: {
         "hero-pattern": "url('/hero-pattern.svg')",
+        "brand-gradient": "linear-gradient(160deg, #065f46 20%, #064e3b 77.5%)",
       },
       keyframes: {
         "accordion-down": {
